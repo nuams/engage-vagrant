@@ -79,6 +79,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", vars['vansible_memory']]
+    vb.gui = true
   end
 
   # Sync project folder to guest machine.
