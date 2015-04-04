@@ -47,7 +47,11 @@
         dest=/etc/php5/apache2/conf.d/apc.ini
 
     - name: PHP | Enable required modules
+<<<<<<< HEAD
      command: php5enmod mcrypt
+=======
+      command: php5enmod mcrypt
+>>>>>>> e09a67343d7f2e8d2f6f13a7717fe4c43a575981
 
     ##
     # MySQL database setup.
